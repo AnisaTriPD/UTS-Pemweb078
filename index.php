@@ -18,7 +18,7 @@ $rows 		= count($data)/(4*$cols);
 <doctype html>
 <html>
   <head>
-    <title>DISC Personality Test</title>
+    <title>Personality Test</title>
     <style>
     body,table {font-family: verdana,arial,sans-serif;font-size: 1em;}
     input {background-color: #eee;line-height:1.5em;}
@@ -55,7 +55,7 @@ $rows 		= count($data)/(4*$cols);
     	Choose one <b>MOST</b> and one <b>LEAST</b> in each of the 28 groups of words. 
     </div>
     <table>
-      <caption>DISC Personality Test</caption>
+      <caption>Personality Test</caption>
       <thead>
         <tr>
         <?php for($i=0;$i<$cols;++$i):?>
